@@ -23,14 +23,28 @@ Install all dependencies for a project.
 ```` 
 ```
 {
-    "search": "",     //Arama ürün ismine göre yapılmalı.
-    "color": "",      //Ürün rengine göre yapılmalı kaç adet bu renkten varsa oda hesaplanmalı.
-    "sortOrder": "",  //Frontend'den "asc" veya "desc" şeklinde yollanacak.
-    "sortBy": "",     //Frontend'den "addedTime" veya "price" olarak yollanacak. sortOrder'ın tipine göre küçükten büyüğe veya büyükten küçüğe olacak.
-    "brand": "",      //Ürün markasına göre yapılmalı kaç tane bu markadan varsa oda dönmeli.
-    "page": "",       //Frontend'den hangi sayfanın tıklandığı bilgisi.
-    "limit": ""       //Frontend'den standart 12 değeri yollanıyor. Ama backend'den dinamik yapılabilir tabii.
+    "search": "",  
+    "color": "",    
+    "sortOrder": "",  
+    "sortBy": "",     
+    "brand": "",     
+    "page": "",       
+    "limit": ""     
 }
+```
+````
+
+## Request Body Descriptions
+
+```` 
+```
+    search    : Arama ürün ismine göre yapılmalı.
+    color     : Ürün rengine göre yapılmalı kaç adet bu renkten varsa oda hesaplanmalı.
+    sortOrder : Frontend'den "asc" veya "desc" şeklinde yollanacak.
+    sortBy    : Frontend'den "addedTime" veya "price" olarak yollanacak. sortOrder'ın tipine göre küçükten büyüğe veya büyükten küçüğe olacak.
+    brand     : Ürün markasına göre yapılmalı kaç tane bu markadan varsa oda dönmeli.
+    page      : Frontend'den hangi sayfanın tıklandığı bilgisi.
+    limit     : Frontend'den standart 12 değeri yollanıyor. Ama backend'den dinamik yapılabilir tabii.
 ```
 ````
 
