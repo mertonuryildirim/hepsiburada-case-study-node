@@ -1,4 +1,6 @@
-# Hepsiburada case study node.js server is using for listing & filtering products.
+# Hepsiburada Case Study Node.js Server is using for listing & filtering products.
+
+Hepsiburada Case Study Node.js Server is using for listing & filtering products.
 
 ## DOCUMENTATION OF THE PROJECT
 
