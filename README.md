@@ -16,6 +16,6 @@ Install all dependencies for a project.
 
 ### `node backend.js`
 
-Open [http://localhost:8085/products](http://localhost:8085/products) to view it in the browser.
+[http://localhost:8085/products](http://localhost:8085/products) is POST Request
 
 
