@@ -20,7 +20,7 @@ Install all dependencies for a project.
 
 ## Request Body 
 
-```` 
+ 
 ```
 {
     "search": "",  
@@ -32,20 +32,20 @@ Install all dependencies for a project.
     "limit": ""     
 }
 ```
-````
+
 
 ## Request Body Descriptions
 
-```` 
+ 
 ```
-    search    : Arama ürün ismine göre yapılmalı.
-    color     : Ürün rengine göre yapılmalı kaç adet bu renkten varsa oda hesaplanmalı.
-    sortOrder : Frontend'den "asc" veya "desc" şeklinde yollanacak.
-    sortBy    : Frontend'den "addedTime" veya "price" olarak yollanacak. sortOrder'ın tipine göre küçükten büyüğe veya büyükten küçüğe olacak.
-    brand     : Ürün markasına göre yapılmalı kaç tane bu markadan varsa oda dönmeli.
-    page      : Frontend'den hangi sayfanın tıklandığı bilgisi.
-    limit     : Frontend'den standart 12 değeri yollanıyor. Ama backend'den dinamik yapılabilir tabii.
+    search    : Ürün ismine göre arama.
+    color     : Ürün rengine göre arama.
+    sortOrder : Artan veya azalan şeklinde. Parametreleri: "asc" | "desc"
+    sortBy    : Artan veya azalan sıralaması değeri. Parametreleri: "addedTime" | "price"
+    brand     : Ürün markasına göre arama.
+    page      : Pagination sayfa numarası.
+    limit     : Standart değeri 12. Dinamik olarak yönetilebilir.
 ```
-````
+
 
 
