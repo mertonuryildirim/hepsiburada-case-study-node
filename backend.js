@@ -1,9 +1,11 @@
 var express = require("express");
+var cors = require('cors')
+const products = require("./products.json");
+
 var app = express();
 
 app.use(express.json());
-
-const products = require("./products.json");
+app.use(cors())
 
 const getSortOrder = (prop) => {
   return function (a, b) {
@@ -42,7 +44,7 @@ const filteredProducts = (products, body) => {
   };
 };
 
-app.listen(8085, () => {});
+app.listen(9999, () => {});
 
 app.post("/products", (req, res) => {
   res.json(filteredProducts(products, req.body));
