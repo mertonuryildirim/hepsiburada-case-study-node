@@ -1,0 +1,372 @@
+[
+    {
+        "id": 1,
+        "name": "LG K41S 32 GB",
+        "brand": "LG",
+        "color": "beyaz",
+        "price": 12929,
+        "discountRate": 79,
+        "addedTime": 1993644963,
+        "quantity": 13
+    },
+    {
+        "id": 2,
+        "name": "Xiaomi Redmi Note 9 Pro 128 GB",
+        "brand": "Xiaomi",
+        "color": "beyaz",
+        "price": 19978,
+        "discountRate": 17,
+        "addedTime": 1920202260,
+        "quantity": 21
+    },
+    {
+        "id": 3,
+        "name": "Nokia 301",
+        "brand": "Nokia",
+        "color": "beyaz",
+        "price": 13709,
+        "discountRate": 46,
+        "addedTime": 1761563209,
+        "quantity": 19
+    },
+    {
+        "id": 4,
+        "name": "Apple Airpods Pro Bluetooth Kulaklık MWP22TU/A (Apple Türkiye Garantili)",
+        "brand": "Apple",
+        "color": "lacivert",
+        "price": 15567,
+        "discountRate": 39,
+        "addedTime": 2788565861,
+        "quantity": 10
+    },
+    {
+        "id": 5,
+        "name": "Apple 20 W USB-C Güç Adaptörü - MHJE3TU/A",
+        "brand": "Apple",
+        "color": "lacivert",
+        "price": 10527,
+        "discountRate": 47,
+        "addedTime": 2130198844,
+        "quantity": 25
+    },
+    {
+        "id": 6,
+        "name": "Nokia 515",
+        "brand": "Nokia",
+        "color": "siyah",
+        "price": 22542,
+        "discountRate": 94,
+        "addedTime": 2041249125,
+        "quantity": 8
+    },
+    {
+        "id": 7,
+        "name": "General Mobile Gm 21 32 GB (General Mobile Garantili)",
+        "brand": "General Mobile",
+        "color": "siyah",
+        "price": 22242,
+        "discountRate": 41,
+        "addedTime": 1945477603,
+        "quantity": 5
+    },
+    {
+        "id": 8,
+        "name": "Samsung Galaxy A21s 64 GB (Samsung Türkiye Garantili)",
+        "brand": "Samsung",
+        "color": "siyah",
+        "price": 11881,
+        "discountRate": 69,
+        "addedTime": 1625516247,
+        "quantity": 5
+    },
+    {
+        "id": 9,
+        "name": "Xiaomi Mi Robot Vacuum Mop Essential 2 in 1 Robot Süpürge ve Paspas",
+        "brand": "Xiaomi",
+        "color": "sarı",
+        "price": 21260,
+        "discountRate": 12,
+        "addedTime": 2090814593,
+        "quantity": 3
+    },
+    {
+        "id": 10,
+        "name": "Huawei Matepad 11 128 GB",
+        "brand": "Huawei",
+        "color": "siyah",
+        "price": 21042,
+        "discountRate": 27,
+        "addedTime": 1637286201,
+        "quantity": 18
+    },
+    {
+        "id": 11,
+        "name": "Xiaomi Mi 11 Lite 8 GB Ram 128 GB (Xiaomi Türkiye Garantili)",
+        "brand": "Xiaomi",
+        "color": "siyah",
+        "price": 22362,
+        "discountRate": 43,
+        "addedTime": 2473849187,
+        "quantity": 25
+    },
+    {
+        "id": 12,
+        "name": "iPhone 11 64 GB",
+        "brand": "Apple",
+        "color": "beyaz",
+        "price": 20826,
+        "discountRate": 99,
+        "addedTime": 3009927454,
+        "quantity": 18
+    },
+    {
+        "id": 13,
+        "name": "Samsung Galaxy A72 128 GB (Samsung Türkiye Garantili)",
+        "brand": "Samsung",
+        "color": "lacivert",
+        "price": 12613,
+        "discountRate": 80,
+        "addedTime": 2088821729,
+        "quantity": 3
+    },
+    {
+        "id": 14,
+        "name": "Samsung Galaxy A02 32 GB (Samsung Türkiye Garantili)",
+        "brand": "Samsung",
+        "color": "beyaz",
+        "price": 17736,
+        "discountRate": 59,
+        "addedTime": 2545014243,
+        "quantity": 1
+    },
+    {
+        "id": 15,
+        "name": "Nokia C3",
+        "brand": "Nokia",
+        "color": "beyaz",
+        "price": 13189,
+        "discountRate": 9,
+        "addedTime": 3030782318,
+        "quantity": 3
+    },
+    {
+        "id": 16,
+        "name": "Apple iPad 9. Nesil 64GB 10.2\" WiFi Tablet - MK2K3TU/A Uzay Grisi",
+        "brand": "Apple",
+        "color": "siyah",
+        "price": 11998,
+        "discountRate": 26,
+        "addedTime": 2615532386,
+        "quantity": 15
+    },
+    {
+        "id": 17,
+        "name": "LG K11 Prime 16 GB",
+        "brand": "LG",
+        "color": "sarı",
+        "price": 21282,
+        "discountRate": 27,
+        "addedTime": 2917234316,
+        "quantity": 3
+    },
+    {
+        "id": 18,
+        "name": "Nokia 100",
+        "brand": "Nokia",
+        "color": "sarı",
+        "price": 22792,
+        "discountRate": 47,
+        "addedTime": 1699842653,
+        "quantity": 7
+    },
+    {
+        "id": 19,
+        "name": "Nokia BL-5C Batarya",
+        "brand": "Nokia",
+        "color": "siyah",
+        "price": 23032,
+        "discountRate": 8,
+        "addedTime": 2415124015,
+        "quantity": 9
+    },
+    {
+        "id": 20,
+        "name": "iPhone XR 64 GB",
+        "brand": "Apple",
+        "color": "sarı",
+        "price": 11489,
+        "discountRate": 24,
+        "addedTime": 2941144024,
+        "quantity": 7
+    },
+    {
+        "id": 21,
+        "name": "Xiaomi Redmi 9c 64 GB (Xiaomi Türkiye Garantili)",
+        "brand": "Xiaomi",
+        "color": "sarı",
+        "price": 16130,
+        "discountRate": 52,
+        "addedTime": 2256048704,
+        "quantity": 13
+    },
+    {
+        "id": 22,
+        "name": "General Mobile GM 20 64 GB (General Mobile Garantili)",
+        "brand": "General Mobile",
+        "color": "beyaz",
+        "price": 20442,
+        "discountRate": 79,
+        "addedTime": 2473948813,
+        "quantity": 8
+    },
+    {
+        "id": 23,
+        "name": "Fibaks LG K41S Kılıf + Ekran Koruyucu A+ Şeffaf Lüx Süper Yumuşak 0.3mm Ince Slim Silikon",
+        "brand": "LG",
+        "color": "siyah",
+        "price": 21005,
+        "discountRate": 46,
+        "addedTime": 2019934408,
+        "quantity": 14
+    },
+    {
+        "id": 24,
+        "name": "Xiaomi Redmi Note 10 5G 128 GB 4 GB Ram (Xiaomi Türkiye Garantili)",
+        "brand": "Xiaomi",
+        "color": "siyah",
+        "price": 9441,
+        "discountRate": 40,
+        "addedTime": 2970823760,
+        "quantity": 23
+    },
+    {
+        "id": 25,
+        "name": "General Mobile GM9 Go 16 GB (General Mobile Garantili)",
+        "brand": "General Mobile",
+        "color": "lacivert",
+        "price": 12071,
+        "discountRate": 8,
+        "addedTime": 2623148670,
+        "quantity": 25
+    },
+    {
+        "id": 26,
+        "name": "Huawei Y5 Lite 2018 16 GB (İthalatçı Garantili)",
+        "brand": "Huawei",
+        "color": "beyaz",
+        "price": 18334,
+        "discountRate": 21,
+        "addedTime": 1942417216,
+        "quantity": 10
+    },
+    {
+        "id": 27,
+        "name": "Huawei Freebuds 4i Bluetooth Kulaklık Beyaz",
+        "brand": "Huawei",
+        "color": "beyaz",
+        "price": 15381,
+        "discountRate": 43,
+        "addedTime": 2249595559,
+        "quantity": 22
+    },
+    {
+        "id": 28,
+        "name": "iPhone 12 Pro Max 128 GB",
+        "brand": "Apple",
+        "color": "lacivert",
+        "price": 13627,
+        "discountRate": 87,
+        "addedTime": 1867783639,
+        "quantity": 7
+    },
+    {
+        "id": 29,
+        "name": "Nokia 2 (Nokia Türkiye Garantili)",
+        "brand": "Nokia",
+        "color": "beyaz",
+        "price": 15136,
+        "discountRate": 5,
+        "addedTime": 3015080320,
+        "quantity": 24
+    },
+    {
+        "id": 30,
+        "name": "Xiaomi Mi Note 10 Lite 128 GB (Xiaomi Türkiye Garantili)",
+        "brand": "Xiaomi",
+        "color": "lacivert",
+        "price": 19227,
+        "discountRate": 70,
+        "addedTime": 2714525203,
+        "quantity": 4
+    },
+    {
+        "id": 31,
+        "name": "Apple Pencil 2. Nesil MU8F2TU/A",
+        "brand": "Apple",
+        "color": "beyaz",
+        "price": 16242,
+        "discountRate": 54,
+        "addedTime": 2409549555,
+        "quantity": 12
+    },
+    {
+        "id": 32,
+        "name": "Apple Lightning - USB Kablosu (1 m) - MXLY2ZM/A",
+        "brand": "Apple",
+        "color": "beyaz",
+        "price": 10188,
+        "discountRate": 84,
+        "addedTime": 1896661757,
+        "quantity": 17
+    },
+    {
+        "id": 33,
+        "name": "iPhone SE 128 GB",
+        "brand": "Apple",
+        "color": "siyah",
+        "price": 23061,
+        "discountRate": 23,
+        "addedTime": 2779376696,
+        "quantity": 20
+    },
+    {
+        "id": 34,
+        "name": "Huawei Mate Xs 512 GB (Huawei Türkiye Garantili)",
+        "brand": "Huawei",
+        "color": "lacivert",
+        "price": 22635,
+        "discountRate": 51,
+        "addedTime": 2937302761,
+        "quantity": 19
+    },
+    {
+        "id": 35,
+        "name": "Huawei MateBook 14 Intel Core i7 1165G7 16GB 512GB Windows 10 Home 14\" QHD Taşınabilir Bilgisayar",
+        "brand": "Huawei",
+        "color": "beyaz",
+        "price": 12544,
+        "discountRate": 94,
+        "addedTime": 2976884272,
+        "quantity": 4
+    },
+    {
+        "id": 36,
+        "name": "Huawei Mate 20 Pro 128 GB (Huawei Türkiye Garantili)",
+        "brand": "Huawei",
+        "color": "siyah",
+        "price": 14196,
+        "discountRate": 55,
+        "addedTime": 1601454492,
+        "quantity": 21
+    },
+    {
+        "id": 37,
+        "name": "Huawei P30 128 GB (Huawei Türkiye Garantili)",
+        "brand": "Huawei",
+        "color": "sarı",
+        "price": 18200,
+        "discountRate": 12,
+        "addedTime": 2666314435,
+        "quantity": 7
+    }
+]
