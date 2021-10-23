@@ -38,13 +38,13 @@ Install all dependencies for a project.
 
  
 ```
-    search    : Ürün ismine göre arama.
-    color     : Ürün rengine göre arama.
-    sortOrder : Artan veya azalan şeklinde. Parametreleri: "asc" | "desc"
-    sortBy    : Artan veya azalan sıralaması değeri. Parametreleri: "addedTime" | "price"
-    brand     : Ürün markasına göre arama.
-    page      : Pagination sayfa numarası.
-    limit     : Standart değeri 12. Dinamik olarak yönetilebilir.
+    search    : Search by product name.
+    color     : Search by product color.
+    sortOrder : Ascending or descending. Parameters: "asc" | "desc"
+    sortBy    : Ascending or descending rank value. Parameters: "addedTime" | "price"
+    brand     : Search by product brand.
+    page      : Pagination page number.
+    limit     : Standard value 12. Dynamically manageable.
 ```
 
 
