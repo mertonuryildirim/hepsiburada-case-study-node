@@ -2,10 +2,6 @@
 
 Hepsiburada Case Study Node.js Server is using for listing & filtering products.
 
-## DOCUMENTATION OF THE PROJECT
-
-Comment lines are written for each feature such as components, functionalities etc.
-
 ## Available Scripts
 
 In the project directory, you can run:
