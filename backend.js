@@ -1,11 +1,12 @@
 var express = require("express");
-var cors = require('cors')
-const products = require("./products.json");
+var cors = require("cors");
+const generateRandomProducts = require("./mockProducts");
+const products = generateRandomProducts();
 
 var app = express();
 
 app.use(express.json());
-app.use(cors())
+app.use(cors());
 
 const getSortOrder = (prop) => {
   return function (a, b) {
@@ -21,14 +22,25 @@ const getSortOrder = (prop) => {
 const filteredProducts = (products, body) => {
   filtered = products.filter((product) => {
     if (
-      product.name.toLocaleLowerCase('tr').includes(body.search.toLocaleLowerCase('tr')) && 
-      (body.brand != "" ? product.brand.toLocaleLowerCase('tr') === body.brand.toLocaleLowerCase('tr') : true) && 
-      (body.color != "" ? product.color.toLocaleLowerCase('tr') === body.color.toLocaleLowerCase('tr') : true)
+      product.name
+        .toLocaleLowerCase("tr")
+        .includes(body.search.toLocaleLowerCase("tr")) &&
+      (body.brand != ""
+        ? product.brand.toLocaleLowerCase("tr") ===
+          body.brand.toLocaleLowerCase("tr")
+        : true) &&
+      (body.color != ""
+        ? product.color.toLocaleLowerCase("tr") ===
+          body.color.toLocaleLowerCase("tr")
+        : true)
     )
       return product;
   });
 
-  filtered = body.sortOrder.toLocaleLowerCase('tr') == "asc" ? filtered.sort(getSortOrder(body.sortBy)) : filtered.sort(getSortOrder(body.sortBy)).reverse()
+  filtered =
+    body.sortOrder.toLocaleLowerCase("tr") == "asc"
+      ? filtered.sort(getSortOrder(body.sortBy))
+      : filtered.sort(getSortOrder(body.sortBy)).reverse();
 
   page = body.page || 1;
   perPage = body.limit || 37;
