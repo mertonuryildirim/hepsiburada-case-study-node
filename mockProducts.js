@@ -43,7 +43,7 @@ module.exports = generateRandomProducts = () => {
       Number(product.price) -
       Number(product.price) * (Number(product.discountRate) / 100)
     ).toFixed(2));
-    product.name = product.brand + " telefon " +  product.color  + " " + product.id  + " (Türkiye Garantili)"
+    product.name = product.brand + " telefon " +  product.color  + " renk " + product.id  + " 32Gb 4Gb Ram (Türkiye Garantili)"
   });
   return products;
 };
