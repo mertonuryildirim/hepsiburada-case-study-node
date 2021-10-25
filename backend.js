@@ -25,13 +25,19 @@ const filteredProducts = (products, body) => {
       product.name
         .toLocaleLowerCase("tr")
         .includes(body.search.toLocaleLowerCase("tr")) &&
-      (body.brand != ""
-        ? product.brand.toLocaleLowerCase("tr") ===
-          body.brand.toLocaleLowerCase("tr")
+      (body.brand.length != 0
+        ? body.brand.some(
+            (element) =>
+              element.toLocaleLowerCase("tr") ===
+              product.brand.toLocaleLowerCase("tr")
+          )
         : true) &&
-      (body.color != ""
-        ? product.color.toLocaleLowerCase("tr") ===
-          body.color.toLocaleLowerCase("tr")
+      (body.color.length != 0
+        ? body.color.some(
+            (element) =>
+              element.toLocaleLowerCase("tr") ===
+              product.color.toLocaleLowerCase("tr")
+          )
         : true)
     )
       return product;
@@ -39,8 +45,10 @@ const filteredProducts = (products, body) => {
 
   filtered =
     body.sortOrder.toLocaleLowerCase("tr") == "asc"
-      ? filtered.sort(getSortOrder(body.sortBy))
-      : filtered.sort(getSortOrder(body.sortBy)).reverse();
+      ? filtered.sort(getSortOrder(body.sortBy ? body.sortBy : "addedTime"))
+      : filtered
+          .sort(getSortOrder(body.sortBy ? body.sortBy : "addedTime"))
+          .reverse();
 
   page = body.page || 1;
   perPage = body.limit || 37;
