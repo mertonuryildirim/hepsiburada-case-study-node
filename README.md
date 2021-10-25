@@ -37,7 +37,7 @@ Install all dependencies for a project.
     search    : Search by product name.
     color     : Search by product color.
     sortOrder : Ascending or descending. Parameters: "asc" | "desc"
-    sortBy    : Ascending or descending rank value. Parameters: "addedTime" | "price"
+    sortBy    : Ascending or descending rank value. Parameters: "addedTime" | "newPrice"
     brand     : Search by product brand.
     page      : Pagination page number.
     limit     : Standard value 12. Dynamically manageable.
